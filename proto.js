@@ -34,9 +34,9 @@ Person.prototype.addToFamily = function (members) {
 };
 
 let peter = new Person("Peter", "Oleary", "Green", 42, ["pasta", "pizza"]);
-let Bjorn = new Person("Bjorn", "Oleary", "Orange", 43, ["pizza, fries"]);
-let John = new Person("John", "Oleary", "Red", 44, ["potatoes", "ramen"]);
-let Sean = new Person("Sean", "Oleary", "Red", 45, ["potatoes", "ramen"]);
+let Bjorn = new Person("Bjorn", "Oleary", "Blue", 43, ["pizza, fries"]);
+let John = new Person("John", "Oleary", "Purple", 44, ["potatoes", "eggs"]);
+let Sean = new Person("Sean", "Oleary", "Purple", 45, ["potatoes", "eggs"]);
 console.log(peter.fullName());
 console.log(peter.toString());
 
